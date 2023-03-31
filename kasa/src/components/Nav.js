@@ -1,12 +1,12 @@
 import "../styles/nav.css";
 import { Link } from "react-router-dom";
-// import logo from "../utils/logo.    ";
+import logo from "../utils/logo.png";
 
 const Nav = () => {
     return (
         <header>
             <div>
-                <img src={} alt="logo kasa" />
+                <img src={logo} alt="logo kasa" />
             </div>
             <nav>
                 <ul>

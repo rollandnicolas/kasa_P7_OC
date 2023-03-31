@@ -1,1 +1,24 @@
-.errorMain {}
+.errorMain {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+  }
+  
+  .errorMain h1 {
+    font-size: 14em;
+    color: #ff6060;
+  }
+  
+  h1 + p {
+    color: #ff6060;
+    font-size: 1.5em;
+  }
+  
+  p + a {
+    color: #ff6060;
+    text-decoration: underline;
+  }
