@@ -1,6 +1,7 @@
 import "../styles/home.css";
 import background from "../utils/background.png";
 //import Card from "../components/Card";
+import CardContainer from "../components/CardContainer";
 //import data from "../data.json";
 
 const Home = () => {
@@ -12,7 +13,7 @@ const Home = () => {
           <h1>Chez vous, partout et ailleurs</h1>
         </div>
       </section>
-     
+      <CardContainer/>
     </div>
   );
 };
