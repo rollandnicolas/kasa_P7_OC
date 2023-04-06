@@ -1,11 +1,11 @@
 import "../styles/cardContainer.css";
-import datas from "../data";
+import datas from "../data/data";
 import Card from '../components/Card'
 
 export default function cardContainer() {
 
     return (
-        <main className='dfd'>
+        <main className="cardContainer">
             {datas.map(data => {
                 return (
                     <Card

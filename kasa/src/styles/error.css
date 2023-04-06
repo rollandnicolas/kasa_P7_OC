@@ -10,12 +10,16 @@
   
   .errorMain h1 {
     font-size: 14em;
+    font-weight: bold;
     color: #ff6060;
+    margin-top: 70px;
+    margin-bottom: 40px;
   }
   
-  h1 + p {
+  .errorMain p {
     color: #ff6060;
-    font-size: 1.5em;
+    font-size: 36px;
+    margin-bottom: 170px;
   }
   
   p + a {
