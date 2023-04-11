@@ -1,6 +1,6 @@
 import "../styles/cardContainer.css";
 import datas from "../data/data";
-import Card from '../components/Card'
+import Card from '../components/Card';
 
 export default function cardContainer() {
 

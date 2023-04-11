@@ -8,15 +8,13 @@ const Home = () => {
   return (
     <div>
       <section>
-        <div className="banner">
-          <img src={background} alt="background" />
-          <h1>Chez vous, partout et ailleurs</h1>
-        </div>
+      <div className="banner">
+        <img src={background} alt="background" />
+        <h1>Chez vous, partout et ailleurs</h1>
+      </div>
       </section>
-      <main className="cardcontainer">
-        <CardContainer />
-      </main>
-    </div>
+      <CardContainer />
+    </div >
   );
 };
 

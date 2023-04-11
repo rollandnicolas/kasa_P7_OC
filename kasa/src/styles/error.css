@@ -10,7 +10,7 @@
   
   .errorMain h1 {
     font-size: 14em;
-    font-weight: bold;
+    font-weight: 700;
     color: #ff6060;
     margin-top: 70px;
     margin-bottom: 40px;
@@ -20,6 +20,7 @@
     color: #ff6060;
     font-size: 36px;
     margin-bottom: 170px;
+    font-weight: 100px;
   }
   
   p + a {
