@@ -8,6 +8,11 @@ header {
     margin: 25px 50px;
   }
 
+  .imgNavLogo img {
+    border-radius: 0;
+    width: 100;
+  }
+
   ul {
     list-style-type: none;
     display: flex;

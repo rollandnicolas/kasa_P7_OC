@@ -9,6 +9,11 @@ footer {
     align-content: center;
     justify-content: center;
     align-items: center;
+    border-radius: 0;
+  }
+
+  .imgNavLogo img {
+    border-radius: 0;
   }
   
   footer p {

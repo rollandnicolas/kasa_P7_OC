@@ -5,7 +5,7 @@ import logo from "../utils/logo.png";
 const Nav = () => {
     return (
         <header>
-            <div>
+            <div className="imgNavLogo">
                 <img src={logo} alt="logo kasa" />
             </div>
             <nav>

@@ -1,17 +1,16 @@
 import "../styles/home.css";
 import background from "../utils/background.png";
 import CardContainer from "../components/CardContainer";
-//import Card from "../components/Card";
-//import data from "../data.json";
+import Herobanner from "../components/HeroBanner";
 
 const Home = () => {
   return (
     <div>
       <section>
-      <div className="banner">
-        <img src={background} alt="background" />
-        <h1>Chez vous, partout et ailleurs</h1>
-      </div>
+        <div className="banner">
+          <img src={background} alt="background" />
+          <h1>Chez vous, partout et ailleurs</h1>
+        </div>
       </section>
       <CardContainer />
     </div >
@@ -19,3 +18,11 @@ const Home = () => {
 };
 
 export default Home;
+
+/*
+<section>
+        <div className="banner">
+          <img src={background} alt="background" />
+          <h1>Chez vous, partout et ailleurs</h1>
+        </div>
+      </section>*/
