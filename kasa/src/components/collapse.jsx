@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import "../styles/about.css";
+import "../styles/collapse.css"
 import arrow from "../utils/arrow.png";
 
 const Collapse = ({ title, description }) => {

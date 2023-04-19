@@ -1,15 +1,14 @@
 import "../styles/home.css";
 import background from "../utils/background.png";
 import CardContainer from "../components/CardContainer";
-import Herobanner from "../components/HeroBanner";
+import Banner from "../components/Banner";
 
 const Home = () => {
   return (
     <div>
       <section>
         <div className="banner">
-          <img src={background} alt="background" />
-          <h1>Chez vous, partout et ailleurs</h1>
+          <Banner />
         </div>
       </section>
       <CardContainer />

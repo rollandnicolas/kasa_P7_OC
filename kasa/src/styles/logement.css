@@ -1,0 +1,14 @@
+
+
+.collapseLogementStyle {
+display: flex;
+flex-direction: row;
+width: 80%;
+margin: auto;
+justify-content: space-between;
+
+}
+
+.col {
+    width: 30%;
+}
