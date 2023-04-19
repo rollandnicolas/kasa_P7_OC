@@ -3,7 +3,7 @@
     flex-direction: column;
     margin: auto;
     margin-top: 40px;
-    margin-bottom: 10px;
+    margin-bottom: 70px;
     width: 80%;
 
   }
@@ -14,16 +14,14 @@
   }
   
   h2 {
+    font-weight: 500;
+    font-size: 24px;
     margin: 0;
   }
-  /*
-  p {
-    padding: 25px;
-    font-weight: 10px;
-  }*/
+ 
 
-  .collapseText p {
-    font-size: 8px;
+  .collapseP {
+    font-size: 24px;
   }
   
   article > div {
@@ -34,7 +32,7 @@
     align-items: center;
     align-content: center;
     padding: 15px;
-    border-radius: 8px;
+    border-radius: 5px;
   }
   
   article > div:nth-child(2) {
@@ -47,7 +45,7 @@
   }
   
 
-  
+  /*
   @media all and (max-width: 375px) {
     .overlay {
       display: flex;
@@ -70,4 +68,4 @@
     article > div {
       width: 335px;
     }
-  }
+  }*/

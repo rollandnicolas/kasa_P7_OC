@@ -6,7 +6,7 @@ import Collapse from "../components/Collapse";
 
 const About = () => {
 	return (
-		<div className="errorMain">
+		<div className="collapseP">
 			<div>
 				<section>
 					<div className="banner">

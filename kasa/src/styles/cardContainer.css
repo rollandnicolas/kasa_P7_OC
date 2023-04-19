@@ -1,14 +1,15 @@
 
 .cardContainer{
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
     flex-wrap: wrap;
    gap: 50px;
-    background-color: F7F7F7;
+background-color: #F7F7F7;
     padding: 50px;
     width: 82%;
     border-radius: 25px;
-    margin: 0 auto;
+    margin:  auto;
+    margin-bottom: 40px;
     @media screen and (max-width: 1230px){
         gap: 25px; 
         padding:25px 15px;       

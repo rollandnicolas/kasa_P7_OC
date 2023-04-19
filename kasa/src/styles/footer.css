@@ -12,8 +12,10 @@ footer {
     border-radius: 0;
   }
 
-  .imgNavLogo img {
-    border-radius: 0;
+
+
+  .logoFooter {
+    border-radius: unset;
   }
   
   footer p {
