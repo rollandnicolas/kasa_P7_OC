@@ -1,14 +1,14 @@
-import "../styles/nav.css";
+import "../styles/header.css";
 import { Link } from "react-router-dom";
 import logo from "../utils/logo.png";
 
-const Nav = () => {
+const Header = () => {
     return (
-        <header>
-            <div className="imgNavLogo">
+        <header className="headerStyle">
+            <div className="imgNavLogoStyle">
                 <img src={logo} alt="logo kasa" />
             </div>
-            <nav>
+            <nav className="headerNavStyle">
                 <ul>
                     <Link to={"/"}>
                         <li>Accueil</li>
@@ -22,4 +22,4 @@ const Nav = () => {
     );
 };
 
-export default Nav;
+export default Header;

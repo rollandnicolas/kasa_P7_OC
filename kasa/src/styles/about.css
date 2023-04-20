@@ -4,7 +4,7 @@
     margin: auto;
     margin-top: 40px;
     margin-bottom: 70px;
-    width: 80%;
+    width: 70%;
   }
   
   article {
@@ -40,4 +40,14 @@
     position: relative;
     top: -5px;
     z-index: -1;
+  }
+
+  @media only screen and (max-width:992px) {
+    h2 {
+      font-size: 12px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+
   }

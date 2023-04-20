@@ -3,11 +3,11 @@ import logoWhite from "../utils/logoWhite.png";
 
 const Footer = () => {
     return (
-        <footer>
+        <footer className="footerStyle">
             <div>
-                <img className="logoFooter" src={logoWhite} alt="logo kasa blanc" />
+                <img className="logoFooterStyle" src={logoWhite} alt="logo kasa blanc" />
             </div>
-            <p>© 2020 Kasa. All rights reserved</p>
+            <p className="pFooterStyle">© 2020 Kasa. All rights reserved</p>
         </footer>
     );
 };
