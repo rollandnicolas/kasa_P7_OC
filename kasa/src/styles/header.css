@@ -1,42 +1,9 @@
-/*header {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: space-between;
-    align-items: center;
-    margin: 25px 50px;
-  }
+/*
 
   .imgNavLogo img {
     border-radius: 0;
     width: 100%;
   }
-
-  ul {
-    list-style-type: none;
-    display: flex;
-  }
-  
-  li {
-    margin: 0 25px;
-    padding-left: 0px;
-    padding-right: 0;
-    color: #ff6060;
-    cursor: pointer;
-    text-transform: uppercase;
-    font-size: 1rem;
-  }
-
-  
-li:hover {
-    text-decoration: underline;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-
   
   @media only screen and (max-width:992px) {
 
@@ -57,6 +24,10 @@ li:hover {
     align-content: center;
     justify-content: space-between;
     align-items: center;
+    margin: auto;
+    margin: 40px;
+     
+  
   }
 
   .imgNavLogoStyle {
@@ -65,6 +36,31 @@ li:hover {
   }
 
   .headerNavStyle ul {
+    list-style-type: none;
+    display: flex;
+  }
+
+  .headerNavStyle li {
+    margin: 0 25px;
+    padding-left: 0px;
+    padding-right: 0;
+    color: #ff6060;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 1rem;
+
+  }
+
+  .headerNavStyle a {
+    text-decoration: none;
+  }
+
+  
+  .headerNavStyle li:hover {
+    text-decoration: underline;
+  }
+
+  .headerNavStyle  ul {
     list-style-type: none;
     display: flex;
   }
