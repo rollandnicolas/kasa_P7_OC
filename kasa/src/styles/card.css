@@ -2,7 +2,12 @@
     position: relative;
     cursor: default;
     width: 30%;
-    aspect-ratio: 1/1;
+    aspect-ratio: 1/1;}
+
+    .cardStyle:hover {
+        transform: scale(1.02);
+        cursor: pointer;
+      }
 
     @media screen and (max-width: 900px) {
         width: 100%;
@@ -13,7 +18,7 @@
         height: 80%;
         width: 80%;
     }
-}
+
 
 /*
     &:hover{

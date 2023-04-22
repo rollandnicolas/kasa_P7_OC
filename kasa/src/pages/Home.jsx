@@ -6,11 +6,9 @@ import Banner from "../components/Banner";
 const Home = () => {
   return (
     <div>
-      <section>
-        <div className="banner">
-          <Banner />
-        </div>
-      </section>
+      <div>
+          <Banner image={background} title="Chez vous, partout et ailleurs."/>
+          </div>
       <CardContainer />
     </div >
   );

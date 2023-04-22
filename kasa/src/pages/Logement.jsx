@@ -8,6 +8,8 @@ import background from "../utils/background.png";
 
 //import Carousel from "../components/Carousel"
 import Collapse from "../components/Collapse";
+import Rating from "../components/Rating";
+import Host from "../components/Host";
 
 
 const Logement = () => {
@@ -15,31 +17,32 @@ const Logement = () => {
     const { LogementId } = useParams();
     //  console.log(LogementId)
     const logmt = data.find((logmt) => logmt.id === LogementId);
-    console.log(logmt)
-    const { title, location, description, equipments } = logmt;
+    //console.log(logmt)
+    const { title, location, rating, host, description, equipments } = logmt;
 
-    console.log(description);
+    //console.log(description);
     return (
 
         <div>
             <div className="carouselStyle">
-            
-            <img src={background} alt="background" />
-
+                <img src={background} alt="background" />
             </div>
-        
+
             <div>
                 <h1>{title}</h1>
                 <h2>{location}</h2>
             </div>
-            <div className="collapseLogementStyle">
-                <Collapse title="Description" description={description} />
-                <Collapse title="Équipement" description={equipments} />
+
+            <div className="hostRatingContainerStyle">
+                <Rating rating={rating} />
+                <Host host={host} />
             </div>
 
+            <div className="collapseLogementStyle">
+                <Collapse className="col" title="Description" description={description} />
+                <Collapse className="col" title="Équipement" description={equipments} />
+            </div>
         </div>
-
-
     )
 };
 

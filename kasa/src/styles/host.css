@@ -1,0 +1,39 @@
+.hostStyle {
+  display: flex;
+  justify-content: flex-end ;
+}
+
+  .hostNameStyle {
+    font-size: 12px;
+    font-weight: 500;
+    margin-right: 10px;
+    /*@include media-query(medium) {
+      font-size: 15px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    @include media-query(large) {
+      font-size: 18px;
+    }*/
+  }
+  
+  
+.hostNameStyle p {
+    margin: 0;
+    text-align: end;
+  }
+
+.hostPicStyle {
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+   /* @include media-query(medium) {
+      height: 48px;
+      width: 48px;
+    }
+    @include media-query(large) {
+      height: 64px;
+      width: 64px;
+    }*/
+  }

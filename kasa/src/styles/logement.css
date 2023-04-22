@@ -1,5 +1,19 @@
 
 
+
+
+.hostRatingContainerStyle {
+        margin-top: 5px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+       /* @include media-query(large) {
+          flex-direction: column-reverse;
+          justify-content: space-around;
+          margin: 0;*/
+        
+
+}
 .collapseLogementStyle {
 display: flex;
 flex-direction: row;
