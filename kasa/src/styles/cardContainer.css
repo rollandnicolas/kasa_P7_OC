@@ -1,20 +1,22 @@
-
-.cardContainer{
+.cardContainer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-   gap: 50px;
-background-color: #F7F7F7;
-    padding: 50px;
-    width: 82%;
-    border-radius: 25px;
-    margin:  auto;
+    gap: 50px;
+    background-color: #F7F7F7;
+    padding: 3%;
+    width: 90%;
+    border-radius: 20px;
+    align-items: center;
+    margin: auto;
     margin-bottom: 40px;
-    @media screen and (max-width: 1230px){
-        gap: 25px; 
-        padding:25px 15px;       
+
+    @media screen and (max-width: 1230px) {
+        gap: 25px;
+        padding: 25px 15px;
     }
-    @media screen and (max-width: 550px){  
+
+    @media screen and (max-width: 550px) {
         width: 100%;
     }
 }

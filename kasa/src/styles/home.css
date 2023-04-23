@@ -75,17 +75,17 @@
 
 .banner {
   width: 90%;
-  height: 255px;
+  height: 200px;
   position: relative;
   margin-bottom: 20px;
 margin: auto;
   
-  border-radius: 10px;
+  border-radius: 20px;
   animation: fadeInUp 600ms ease-in-out;
+  margin-bottom: 40px;
 }
   .bannerImgStyle {
     width: 100%;
-    width: inherit;
     height: inherit;
     object-fit: cover;
     border-radius: inherit;

@@ -17,12 +17,12 @@
 .collapseLogementStyle {
 display: flex;
 flex-direction: row;
-width: 80%;
+width: 100%;
 margin: auto;
 justify-content: space-between;
 
 }
 
-.col {
+.colOne {
     width: 30%;
 }

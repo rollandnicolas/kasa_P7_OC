@@ -18,7 +18,7 @@ const Logement = () => {
     //  console.log(LogementId)
     const logmt = data.find((logmt) => logmt.id === LogementId);
     //console.log(logmt)
-    const { title, location, rating, host, description, equipments } = logmt;
+    const { title, location, rating, host, description, equipments, pictures } = logmt;
 
     //console.log(description);
     return (
@@ -27,20 +27,23 @@ const Logement = () => {
             <div className="carouselStyle">
                 <img src={background} alt="background" />
             </div>
+            
+            <div className="">
+                <div className="">
+                    <h1>{title}</h1>
+                    <p>{location}</p>
+                    <div></div>
+                </div>
 
-            <div>
-                <h1>{title}</h1>
-                <h2>{location}</h2>
-            </div>
-
-            <div className="hostRatingContainerStyle">
-                <Rating rating={rating} />
-                <Host host={host} />
+                <div className="hostRatingContainerStyle">
+                    <Rating rating={rating} />
+                    <Host host={host} />
+                </div>
             </div>
 
             <div className="collapseLogementStyle">
-                <Collapse className="col" title="Description" description={description} />
-                <Collapse className="col" title="Équipement" description={equipments} />
+                <Collapse className="colOne" title="Description" description={description} />
+                <Collapse className="colTwo" title="Équipement" description={equipments} />
             </div>
         </div>
     )

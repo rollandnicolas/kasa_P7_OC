@@ -1,66 +1,84 @@
 /*
-
-  .imgNavLogo img {
-    border-radius: 0;
-    width: 100%;
-  }
-  
   @media only screen and (max-width:992px) {
-
-  li {
-      font-size: 0.7rem;
-    }
   }
 
   @media only screen and (max-width: 768px) {
-
-  }*/
-
-  .headerStyle {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: space-between;
-    align-items: center;
-    margin: auto;
-    margin: 40px;
-     
-  
   }
+  */
 
+.headerStyle {
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media only screen and (max-width:992px) {
+  .headerStyle {
+    width: 95%;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .headerStyle {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+.imgNavLogoStyle {
+  width: 200px;
+}
+@media only screen and (max-width: 768px) {
+  .imgNavLogoStyle {
+    width: 120px;
+}
+}
+
+/*
   .imgNavLogoStyle {
     border-radius: 0;
     width: 100%;
   }
 
-  .headerNavStyle ul {
-    list-style-type: none;
-    display: flex;
-  }
+  .headerNavStyle {
+    width: 30%;
+    align-items: center;
+  }*/
+.headerNavStyle ul {
+  display: flex;
+  justify-content: space-between;
 
-  .headerNavStyle li {
-    margin: 0 25px;
-    padding-left: 0px;
-    padding-right: 0;
-    color: #ff6060;
-    cursor: pointer;
-    font-size: 1rem;
 
-  }
+}
 
-  .headerNavStyle a {
-    text-decoration: none;
-  }
+.headerLiStyle {
+  color: #ff6060;
+  cursor: pointer;
+  font-size: 24px;
+  margin-left: 4.5rem;
+}
 
-  
-  .headerNavStyle li:hover {
-    text-decoration: underline;
+@media only screen and (max-width:768px) {
+  .headerLiStyle {
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-left: 1.5rem;
   }
+}
 
-  .headerNavStyle  ul {
-    list-style-type: none;
-    display: flex;
-  }
-  
+
+.headerNavStyle li:hover {
+  text-decoration: underline;
+}
+
+.headerNavStyle a {
+  text-decoration: none;
+  list-style-type: none;
+}

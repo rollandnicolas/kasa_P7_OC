@@ -5,18 +5,18 @@ import logo from "../utils/logo.png";
 const Header = () => {
     return (
         <header className="headerStyle">
-            <div className="imgNavLogoStyle">
+            <div>
                 <Link to={"/"}>
-                <img src={logo} alt="logo kasa" />
+                    <img src={logo} alt="logo kasa" className="imgNavLogoStyle" />
                 </Link>
             </div>
             <nav className="headerNavStyle">
-                <ul>
+                <ul className="headerNavStyle">
                     <Link to={"/"}>
-                        <li>Accueil</li>
+                        <li className="headerLiStyle">Accueil</li>
                     </Link>
                     <Link to={"/About"}>
-                        <li>A propos</li>
+                        <li className="headerLiStyle">A propos</li>
                     </Link>
                 </ul>
             </nav>
