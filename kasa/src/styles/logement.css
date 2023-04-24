@@ -1,8 +1,4 @@
-
-
-
-
-.hostRatingContainerStyle {
+/*.hostRatingContainerStyle {
         margin-top: 5px;
         margin-bottom: 20px;
         display: flex;
@@ -10,7 +6,7 @@
        /* @include media-query(large) {
           flex-direction: column-reverse;
           justify-content: space-around;
-          margin: 0;*/
+          margin: 0;
         
 
 }
@@ -21,8 +17,65 @@ width: 100%;
 margin: auto;
 justify-content: space-between;
 
+}*/
+
+
+/* description globale */
+
+/* page logement description */
+
+.collapseLogementStyle {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+
 }
 
-.colOne {
-    width: 30%;
+.collapseDescription, .collapseEquipment {
+    width: 45%;
+}
+
+.infoPart1 .title {
+    font-size: 36px;
+    font-weight: 500 ;
+    margin-top: 20px;
+    color: #FF6060;
+}
+
+.infoPart1 .location {
+    margin-top: 10px;
+    color: #FF6060;
+}
+
+.infoPart2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+@media (max-width: 820px) {
+    .infoPart1 .title {
+        font-size: 18px;
+    }
+
+    .infoPart1 {
+        margin-top: -20px;
+        
+    }
+    .infoPart2 {
+         display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center; 
+        align-items: flex-start;
+    }
+
+    .collapseLogementStyle {
+        flex-direction: column;
+    }
+    .collapseDescription, .collapseEquipment {
+        width: 100%;
+    }
 }

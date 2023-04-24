@@ -17,6 +17,9 @@
   align-content: center;
   justify-content: space-between;
   align-items: center;
+  /*position: fixed;
+  z-index: 12;
+  background-color: white;*/
 }
 
 @media only screen and (max-width:992px) {
@@ -35,27 +38,16 @@
 .imgNavLogoStyle {
   width: 200px;
 }
+
 @media only screen and (max-width: 768px) {
   .imgNavLogoStyle {
     width: 120px;
-}
-}
-
-/*
-  .imgNavLogoStyle {
-    border-radius: 0;
-    width: 100%;
   }
+}
 
-  .headerNavStyle {
-    width: 30%;
-    align-items: center;
-  }*/
 .headerNavStyle ul {
   display: flex;
   justify-content: space-between;
-
-
 }
 
 .headerLiStyle {
@@ -72,7 +64,6 @@
     margin-left: 1.5rem;
   }
 }
-
 
 .headerNavStyle li:hover {
   text-decoration: underline;

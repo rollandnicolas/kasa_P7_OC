@@ -84,6 +84,12 @@ margin: auto;
   animation: fadeInUp 600ms ease-in-out;
   margin-bottom: 40px;
 }
+
+@media only screen and (max-width:992px) {
+  .banner {
+    width: 95%;
+  }
+}
   .bannerImgStyle {
     width: 100%;
     height: inherit;

@@ -7,43 +7,48 @@ import data from "../data/data.json";
 import background from "../utils/background.png";
 
 //import Carousel from "../components/Carousel"
-import Collapse from "../components/Collapse";
+//import ContainerDescriptionLogement from "../components/ContainerDescriptionLogement";
+import Tag from "../components/Tag"
 import Rating from "../components/Rating";
 import Host from "../components/Host";
+import Collapse from "../components/Collapse";
+
+import "../styles/logement.css"
 
 
 const Logement = () => {
-    // console.log(useParams())
     const { LogementId } = useParams();
-    //  console.log(LogementId)
     const logmt = data.find((logmt) => logmt.id === LogementId);
-    //console.log(logmt)
-    const { title, location, rating, host, description, equipments, pictures } = logmt;
+    const { title, location, rating, host, description, equipments, pictures, tags } = logmt;
 
-    //console.log(description);
     return (
 
         <div>
             <div className="carouselStyle">
                 <img src={background} alt="background" />
             </div>
-            
-            <div className="">
-                <div className="">
-                    <h1>{title}</h1>
-                    <p>{location}</p>
-                    <div></div>
+            <div className="infoLogement">
+                <div className="infoParts1&2">
+                    <div className="infoPart1">
+                        <h1 className="title">{title}</h1>
+                        <p className="location">{location}</p>
+                        <Tag tags={tags} />
+                    </div>
+
+                    <div className="infoPart2">
+                        <Host host={host} />
+                        <Rating rating={rating} />
+                    </div>
                 </div>
 
-                <div className="hostRatingContainerStyle">
-                    <Rating rating={rating} />
-                    <Host host={host} />
+                <div className="collapseLogementStyle">
+                    <section className="collapseDescription">
+                        <Collapse title="Description" description={description} />
+                    </section>
+                    <section className="collapseEquipment">
+                        <Collapse title="Équipement" description={equipments} />
+                    </section>
                 </div>
-            </div>
-
-            <div className="collapseLogementStyle">
-                <Collapse className="colOne" title="Description" description={description} />
-                <Collapse className="colTwo" title="Équipement" description={equipments} />
             </div>
         </div>
     )

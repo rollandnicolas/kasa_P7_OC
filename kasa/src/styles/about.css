@@ -1,15 +1,17 @@
-  main {
+  /*.collapseAboutStyle {
     display: flex;
     flex-direction: column;
     margin: auto;
     margin-top: 40px;
-    margin-bottom: 70px;
+    margin-bottom: 75px;
     width: 75%;
   }
   
   article {
+    width: 75%;
+    margin: auto;
     margin-bottom: 25px;
-    width: 100%;
+
   }
   
   h2 {
@@ -17,10 +19,10 @@
     font-size: 24px;
     margin: 0;
   }
- 
+ /*
   .collapse {
     font-size: 24px;
-  }
+  }*//*
   
   article > div {
     background-color: #ff6060;
