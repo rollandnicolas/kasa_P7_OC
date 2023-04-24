@@ -1,0 +1,50 @@
+.carouselStyle {
+    margin: auto;
+    position: relative;
+    height: 415px;
+    width: 90%;
+  }
+  .carouselSlide {
+    margin: 0;
+    position: absolute;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .arrowCarousel {
+    width: 30px;
+    margin: 0 25px;
+    cursor: pointer;
+
+  }
+  .arrowCarousel:hover {
+    animation: transform 0.3s ease-in-out forwards;
+  }
+  @keyframes transform {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.2);
+    }
+  }
+  .carouselImg {
+    border-radius: 15px;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+  }
+  .carouselHiddenImg {
+    display: none;
+  }
+  .carouselPageNumber {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+  }

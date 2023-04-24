@@ -1,20 +1,14 @@
 import { useParams } from "react-router-dom";
-import { useEffect, useState } from "react";
 import "../styles/logement.css"
 
 import data from "../data/data.json";
 
-import background from "../utils/background.png";
-
-//import Carousel from "../components/Carousel"
 //import ContainerDescriptionLogement from "../components/ContainerDescriptionLogement";
-import Tag from "../components/Tag"
+import Carousel from "../components/Carousel";
+import Tag from "../components/Tag";
 import Rating from "../components/Rating";
 import Host from "../components/Host";
 import Collapse from "../components/Collapse";
-
-import "../styles/logement.css"
-
 
 const Logement = () => {
     const { LogementId } = useParams();
@@ -25,7 +19,7 @@ const Logement = () => {
 
         <div>
             <div className="carouselStyle">
-                <img src={background} alt="background" />
+                <Carousel pictures={logmt.pictures}/>
             </div>
             <div className="infoLogement">
                 <div className="infoParts1and2">
