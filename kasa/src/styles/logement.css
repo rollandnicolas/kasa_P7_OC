@@ -28,24 +28,35 @@ justify-content: space-between;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    width: 100%;
+    width: 90%;
+    margin: auto;
 
 }
 
 .collapseDescription, .collapseEquipment {
-    width: 45%;
+    width: 47%;
+}
+
+.infoParts1and2 {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
 }
 
 .infoPart1 .title {
     font-size: 36px;
     font-weight: 500 ;
     margin-top: 20px;
+    margin-bottom: 0px;
     color: #FF6060;
 }
 
 .infoPart1 .location {
     margin-top: 10px;
     color: #FF6060;
+    font-size: 18px;
 }
 
 .infoPart2 {

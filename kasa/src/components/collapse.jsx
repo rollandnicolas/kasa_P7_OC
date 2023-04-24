@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "../styles/about.css";
 import "../styles/collapse.css"
-import arrow from "../utils/arrow.png";
+import arrow from "../utils/arrow.svg";
 
 const Collapse = ({ title, description }) => {
     const [open, isOPen] = useState(false);
@@ -21,8 +21,8 @@ const Collapse = ({ title, description }) => {
         }
     }, [open, isOPen, rotate, title]);
     return (
-        <article>
-            <div onClick={openCollapse}>
+        <div className="collapse">
+            <div className="container" onClick={openCollapse}>
                 <h2>{title}</h2>
                 <img src={arrow} alt="deploy" className={title} />
             </div>
@@ -31,7 +31,7 @@ const Collapse = ({ title, description }) => {
                     <p className="collapseText">{description}</p>
                 </div>
             )}
-        </article>
+        </div>
     );
 };
 

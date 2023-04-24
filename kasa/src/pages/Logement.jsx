@@ -28,7 +28,7 @@ const Logement = () => {
                 <img src={background} alt="background" />
             </div>
             <div className="infoLogement">
-                <div className="infoParts1&2">
+                <div className="infoParts1and2">
                     <div className="infoPart1">
                         <h1 className="title">{title}</h1>
                         <p className="location">{location}</p>

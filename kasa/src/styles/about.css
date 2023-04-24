@@ -1,4 +1,4 @@
-  /*.collapseAboutStyle {
+  .collapseAboutStyle {
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -6,7 +6,11 @@
     margin-bottom: 75px;
     width: 75%;
   }
-  
+
+  /*.collapseAboutStyle .collapse {
+    margin-bottom: 30px;
+  }*/
+  /*
   article {
     width: 75%;
     margin: auto;
