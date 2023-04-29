@@ -34,5 +34,4 @@ const Collapse = ({ title, description }) => {
         </div>
     );
 };
-
 export default Collapse;

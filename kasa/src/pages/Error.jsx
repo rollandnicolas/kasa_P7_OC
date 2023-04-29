@@ -5,9 +5,12 @@ const Error = () => {
     return (
         <div className="errorMain">
             <h1>404</h1>
-            <p>Oups! La page que vous demandez n'existe pas.</p>
+            <div className="containerPError">
+                <p>Oups! La page que </p>
+                <p> vous demandez n'existe pas.</p>
+            </div>
             <Link to={"/"}>
-                <span>Retourner sur la page d'accueil</span>
+                <span className="linkErrorStyle">Retourner sur la page d'accueil</span>
             </Link>
         </div>
     );

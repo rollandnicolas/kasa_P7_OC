@@ -7,6 +7,16 @@
     width: 75%;
   }
 
+  @media only screen and (max-width:992px) {
+    .collapseAboutStyle {
+      width: 94%;
+    }
+
+    .bannerAboutStyle {
+      height: 400px;
+    }
+  }
+
   /*.collapseAboutStyle .collapse {
     margin-bottom: 30px;
   }*/

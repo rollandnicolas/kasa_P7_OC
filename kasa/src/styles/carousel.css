@@ -2,7 +2,7 @@
     margin: auto;
     position: relative;
     height: 415px;
-    width: 90%;
+    width: 95%;
   }
   .carouselSlide {
     margin: 0;
@@ -11,6 +11,7 @@
     top: 0;
     bottom: 0;
     width: 100%;
+    height: 100%;
     display: flex;
     justify-content: space-between;
   }
@@ -36,6 +37,7 @@
     height: 100%;
     object-fit: cover;
     width: 100%;
+    margin: auto;
   }
   .carouselHiddenImg {
     display: none;

@@ -6,7 +6,7 @@ import Banner from "../components/Banner";
 const Home = () => {
   return (
     <div>
-      <div className="bannerHomeStyle">
+      <div className="bannerHomeStyle" className="bannerTitleStyle">
         <Banner image={background} title="Chez vous, partout et ailleurs." />
       </div>
       <CardContainer />
@@ -15,5 +15,3 @@ const Home = () => {
 };
 
 export default Home;
-
-
