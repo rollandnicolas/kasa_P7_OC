@@ -1,69 +1,39 @@
+.aboutBanner {
+  height: 223px;
+  width: 90%;
+  margin: auto;
+  border-radius: 25px;
+}
+
+.aboutBanner img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 25px;
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5));
+
+}
+
+.collapseAboutStyle {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 75px;
+  width: 75%;
+}
+
+@media only screen and (max-width:992px) {
+  .aboutBanner {
+    width: 94%;
+
+  }
+
   .collapseAboutStyle {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    margin-top: 40px;
-    margin-bottom: 75px;
-    width: 75%;
+    width: 94%;
   }
 
-  @media only screen and (max-width:992px) {
-    .collapseAboutStyle {
-      width: 94%;
-    }
-
-    .bannerAboutStyle {
-      height: 400px;
-    }
+  .collapseAboutStyle {
+    margin-top: 20px;
   }
-
-  /*.collapseAboutStyle .collapse {
-    margin-bottom: 30px;
-  }*/
-  /*
-  article {
-    width: 75%;
-    margin: auto;
-    margin-bottom: 25px;
-
-  }
-  
-  h2 {
-    font-weight: 500;
-    font-size: 24px;
-    margin: 0;
-  }
- /*
-  .collapse {
-    font-size: 24px;
-  }*//*
-  
-  article > div {
-    background-color: #ff6060;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    align-content: center;
-    padding: 15px;
-    border-radius: 5px;
-  }
-  
-  article > div:nth-child(2) {
-    background-color: #f7f7f7;
-    color: #ff6060;
-    border-radius: 0 0 20px 20px;
-    position: relative;
-    top: -5px;
-    z-index: -1;
-  }
-/*
-  @media only screen and (max-width:992px) {
-    h2 {
-      font-size: 12px;
-    }
-  }
-
-  @media only screen and (max-width: 768px) {
-
-  }*/
+}

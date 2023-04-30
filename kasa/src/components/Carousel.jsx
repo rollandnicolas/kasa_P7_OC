@@ -5,7 +5,6 @@ import { ReactComponent as ArrowRight } from "../utils/arrowSlideRight.svg";
 
 import "../styles/carousel.css";
 
-
 function Carousel(props) {
     const [currentSlide, setCurrentSlide] = useState(0)
     const arrayLenght = props.pictures.flatMap(el => el.pictures).length;

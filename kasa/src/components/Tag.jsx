@@ -1,6 +1,6 @@
 import "../styles/tag.css"
 
-function Tag({tags}) {
+function Tag({ tags }) {
     return (
         <ul className="tagContStyle">
             {tags.map((tag) => (

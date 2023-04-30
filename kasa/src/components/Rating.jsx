@@ -1,9 +1,8 @@
 import React from "react";
 import "../styles/rating.css"
-// style
 
-import redstar from "../utils/redstar.png";
-import greystar from "../utils/greystar.png";
+import redstar from "../utils/redstar.svg";
+import greystar from "../utils/greystar.svg";
 
 const Rating = ({ rating }) => {
   const stars = [1, 2, 3, 4, 5];
@@ -11,14 +10,16 @@ const Rating = ({ rating }) => {
   return (
     <div className="ratingStyle">
       {stars.map((star) =>
-        rating >= star ? 
-        (
-          <img key={star.toString()} className="ratingStarStyle" src={redstar} alt="" />
-        ) 
-        : 
-        (
-          <img key={star.toString()} className="ratingStarStyle" src={greystar} alt="" />
-        )
+        rating >= star ?
+          (
+            <img key={star.toString()} className="ratingStarStyle"
+              src={redstar} alt="" />
+          )
+          :
+          (
+            <img key={star.toString()} className="ratingStarStyle"
+              src={greystar} alt="" />
+          )
       )}
     </div>
   );

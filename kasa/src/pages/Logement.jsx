@@ -19,11 +19,8 @@ const Logement = () => {
     const { title, location, rating, host, description, equipments, tags } = logmt;
 
     return (
-
         <div>
-
             <Carousel pictures={logmt.pictures} className="carouselStyle" />
-
             <div className="infoLogement">
                 <div className="infoParts1and2">
                     <div className="infoPart1">
@@ -37,7 +34,6 @@ const Logement = () => {
                         <Rating rating={rating} />
                     </div>
                 </div>
-
                 <div className="collapseLogementStyle">
                     <section className="collapseDescription">
                         <Collapse title="Description" description={description} />

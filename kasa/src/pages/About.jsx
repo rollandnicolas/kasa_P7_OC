@@ -1,15 +1,13 @@
 import "../styles/about.css";
 import background from "../utils/imgBanner2.png";
 import Collapse from "../components/Collapse";
-import Banner from "../components/Banner";
+import AboutBanner from "../components/AboutBanner";
 
 const About = () => {
 	return (
 		<div>
 			<div>
-				
-					<Banner className="bannerAboutStyle" image={background} />
-				
+				<AboutBanner image={background} className="aboutBanner" />
 				<div className="collapseAboutStyle">
 					<Collapse
 						title="Fiabilité"

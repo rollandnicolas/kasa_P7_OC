@@ -27,8 +27,6 @@
   margin-bottom: 100px;
   gap: 12px;
   margin-bottom: 130px;
-
-
 }
 
 p+a {
@@ -57,9 +55,10 @@ p+a {
     margin-top: 0px;
     text-align: center;
   }
+
   .containerPError {
     display: flex;
-   flex-direction: column; 
+    flex-direction: column;
   }
 }
 
@@ -68,7 +67,6 @@ p+a {
     font-size: 14px;
     color: #ff6060;
     text-decoration-color: #ff6060;
-
   }
 
   .linkErrorStyle a {

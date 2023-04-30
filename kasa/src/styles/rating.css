@@ -5,28 +5,22 @@
 
 .ratingStarStyle {
     margin-right: 5px;
-
+    height: 24px;
 }
- /*   @include media-query(medium) {
-        height: 24px;
+
+@media only screen and (max-width:992px) {
+    .ratingStyle {
+        margin-top: 20px;
+        align-items: baseline;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .ratingStarStyle {
+        height: 13px;
     }
 
-    @include media-query(large) {
-        height: 30px;
-    }*/
-
-
-
-
-
-    @media only screen and (max-width:992px) {
-        .ratingStyle {
-            margin-top: 25px;
-            align-items: baseline;
-
-        }
-        }
-      
-        @media only screen and (max-width: 768px) {
-      
-        }
+    .ratingStyle {
+        margin-top: 12px;
+    }
+}
