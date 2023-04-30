@@ -6,7 +6,7 @@ import Banner from "../components/Banner";
 const Home = () => {
   return (
     <div>
-      <Banner image={background} title="Chez <span className='break-word'>vous,</span><span className='break-word'>partout et ailleurs.</span>" />
+      <Banner image={background} title="Chez vous, <span className='breakline'> partout et ailleurs.</span>" />
       <CardContainer />
     </div >
   );

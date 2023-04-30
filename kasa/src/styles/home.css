@@ -1,7 +1,7 @@
 .banner {
   background-image: url(../utils/background.png);
-  margin-bottom: 30px;
   width: 90%;
+  margin-top: 25px;
   margin: auto;
   height: 223px;
   border-radius: 20px;
@@ -37,10 +37,6 @@
   text-align: center;
 }
 
-.break-word {
-  white-space: nowrap;
-  display: inline-block;
-}
 
 @media only screen and (max-width:992px) {
   .banner {
@@ -48,38 +44,27 @@
     height: 111px;
     margin-bottom: 25px;
   }
-
   .banner h1 {
     font-size: 24px;
-
+    margin: auto;
   }
 }
 
-@media screen and (max-width: 768px) {
-  .break-word:nth-of-type(2) {
-    display: block;
-  }
 
+@media screen and (max-width: 768px) {
   .banner h1 {
-    width: 80%;
     top: 22%;
+  }
+}
+
+
+@media screen and (max-width: 430px) {
+  .banner h1 {
     text-align: left;
     padding-left: 30px;
+    width: 80%;
   }
-
-  .bannerTitleStyle span {
-    display: block;
-    white-space: normal;
-  }
-}
-
-.break-word {
-  white-space: nowrap;
-  display: inline-block;
-}
-
-@media screen and (max-width: 768px) {
-  .bannerText > .break-word:last-child {
-    display: block;
+  .breakline {
+    word-break: break-word;
   }
 }

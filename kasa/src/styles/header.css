@@ -1,25 +1,14 @@
-/*
-  @media only screen and (max-width:992px) {
-  }
-
-  @media only screen and (max-width: 768px) {
-  }
-  */
-
 .headerStyle {
   width: 90%;
   margin: auto;
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   align-content: center;
   justify-content: space-between;
   align-items: center;
-  /*position: fixed;
-  z-index: 12;
-  background-color: white;*/
 }
 
 @media only screen and (max-width:992px) {
@@ -31,7 +20,6 @@
 @media only screen and (max-width:768px) {
   .headerStyle {
     margin-top: 22px;
-    margin-bottom: 10px;
   }
 }
 
