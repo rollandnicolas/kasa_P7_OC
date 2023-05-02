@@ -1,17 +1,12 @@
-.aboutBanner {
-  height: 223px;
-  width: 90%;
-  margin: auto;
-  border-radius: 25px;
-}
-
-.aboutBanner img {
-  object-fit: cover;
-  height: 100%;
-  width: 100%;
-  border-radius: 25px;
-  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5));
-
+.bannerAbout {
+position: relative;
+border-radius: 25px;
+height: 223px;
+width: 90%;
+margin: auto;
+background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../utils/imgBanner2.png');
+background-position: center;
+background-size: cover;
 }
 
 .collapseAboutStyle {
@@ -24,7 +19,7 @@
 }
 
 @media only screen and (max-width:992px) {
-  .aboutBanner {
+  .bannerAbout {
     width: 94%;
 
   }

@@ -5,6 +5,7 @@ import Home from "../pages/Home";
 import Ab from "../pages/About";
 import Error from "../pages/Error";
 import Logement from "../pages/Logement";
+/*import About from "../pages/About";*/
 
 const index = () => {
     return (

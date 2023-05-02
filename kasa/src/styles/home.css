@@ -1,11 +1,14 @@
 .banner {
-  background-image: url(../utils/background.png);
-  width: 90%;
-  margin-top: 25px;
-  margin: auto;
-  height: 223px;
-  border-radius: 20px;
   position: relative;
+  border-radius: 25px;
+  height: 223px;
+  width: 90%;
+  padding: 20px;
+  margin: auto;
+  margin-top: 28px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../utils/background.png');
+  background-position: center;
+  background-size: cover;
 }
 
 .banner::before {
@@ -25,7 +28,7 @@
   height: 100%;
 }
 
-.banner h1 {
+.banner p {
   z-index: 1;
   position: absolute;
   top: 35%;
@@ -37,33 +40,37 @@
   text-align: center;
 }
 
-
 @media only screen and (max-width:992px) {
   .banner {
-    width: 95%;
+    width: 94%;
     height: 111px;
     margin-bottom: 25px;
   }
-  .banner h1 {
+
+  .banner p {
     font-size: 24px;
     margin: auto;
   }
 }
 
-
 @media screen and (max-width: 768px) {
-  .banner h1 {
+  .banner p {
     top: 22%;
+  }
+
+  p span {
+    display: block;
   }
 }
 
 
 @media screen and (max-width: 430px) {
-  .banner h1 {
+  .banner p {
     text-align: left;
-    padding-left: 30px;
+    padding-left: 25px;
     width: 80%;
   }
+
   .breakline {
     word-break: break-word;
   }
