@@ -5,15 +5,13 @@ import { useEffect, useState } from 'react';
 import "../styles/home.css";
 import "../styles/about.css"; 
 
-export default function BannerRevisited() {
+export default function Banner() {
 
 	const [aboutPage, setAboutPage] = useState(false);
 
 	const location = useLocation();
 	
     useEffect(() => {
-
-        console.log(location.pathname);
         if(location.pathname === '/About'){
             setAboutPage(true)
         };
