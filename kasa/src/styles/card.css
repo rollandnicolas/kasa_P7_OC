@@ -4,12 +4,16 @@
     width: 30%;
     aspect-ratio: 1/1;
     margin-bottom: 45px;
+    border-radius: 10px;
 }
 
 .cardStyle:hover {
     transform: scale(1.02);
     cursor: pointer;
+    box-shadow: 0 2px 8px rgb(0, 0, 0);
+    border-radius: inherit;
 }
+
 
 .cardStyle img {
     cursor: pointer;
@@ -17,8 +21,17 @@
     width: 100%;
     object-fit: cover;
     border-radius: 10px;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8));
 }
+
+.cardVoile {
+    position: absolute;
+    top: 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
 
 h3 {
     color: white;
@@ -31,10 +44,7 @@ h3 {
     padding-bottom: 0;
 }
 
-.cardStyle:hover {
-    box-shadow: 0 2px 8px rgb(0, 0, 0);
-    border-radius: inherit;
-}
+
 
 @media screen and (max-width: 992px) {
     .cardStyle {

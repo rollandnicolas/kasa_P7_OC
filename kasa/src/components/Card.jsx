@@ -6,6 +6,7 @@ export default function Card({ id, title, cover }) {
 	return (
 		<Link to={`/logement/${id}`} className="cardStyle">
 			<img src={cover} alt={title} />
+			<div className="cardVoile"></div>
 			<h3>{title}</h3>
 		</Link>
 	)
